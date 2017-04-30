@@ -1,4 +1,5 @@
 body {
+  background-color: #000; /* white line at the bottom of page (temp fix) */
   background-image: url('../img/starwatchers.png');
   background-size: cover;
   background-position: center;
