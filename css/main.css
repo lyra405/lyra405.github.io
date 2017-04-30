@@ -75,3 +75,27 @@ body {
   opacity: 1;
   filter: alpha(opacity=100); /* IE8 and earler */
 }
+
+.footer {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  line-height: 1vh;
+  background-color: #000;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* IE8 and earler */
+}
+
+.footer p {
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* IE8 and earler */
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
