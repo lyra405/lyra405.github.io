@@ -25,12 +25,24 @@ body {
     padding: 0;
     margin: 0;
     color: #fff;
+    color: white;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
 }
 .container .info h2 {
     font-size: 18px;
     line-height: 10px;
     letter-spacing: 3px;
     color: #fff;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 @media only screen and (max-width: 480px) {
     .container .info h1 {
