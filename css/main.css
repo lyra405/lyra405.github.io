@@ -44,17 +44,7 @@ body {
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
-@media only screen and (max-width: 480px) {
-    .container .info h1 {
-        font-size: 15px;
-    }
-    .container .info h2 {
-        font-size: 11px;
-    }
-    .container .info h3 {
-        font-size: 10px;
-    }
-}
+
 .container .links a {
     text-decoration: none;
     margin: 3px;
@@ -88,4 +78,30 @@ body {
 .footer a {
   text-decoration: none;
   color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    /* UNOPTIMISED */
+    body {
+      color: white;
+      background-color: black;
+      background-position: initial;
+      background-size: 100vw 100vh;
+    }
+    .container .info {
+      width: 100vw;
+    }
+    .container .info h1 {
+        font-size: 30px;
+    }
+    .container .info h2 {
+        font-size: 11px;
+    }
+    .links img {
+      width: 32px;
+      height: 32px;
+      opacity: 0.7;
+      filter: alpha(opacity=70);
+    }
 }
