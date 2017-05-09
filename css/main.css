@@ -1,3 +1,17 @@
+
+:root:before {
+  content: url('../img/starwatchers.png');
+  background-image: url('../img/starwatchers.png');
+  visibility: hidden;
+  position: absolute;
+  left: -999em;
+  background-color: #000; /* white line at the bottom of page (temp fix) */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*
 body {
   background-color: #000; /* white line at the bottom of page (temp fix) */
   background-image: url('../img/starwatchers.png');
@@ -5,6 +19,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+*/
 
 .container {
     position: absolute;
